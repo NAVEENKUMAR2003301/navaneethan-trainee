@@ -1,0 +1,119 @@
+*{
+    background-color: #007074;
+} 
+
+.parentOfFlag{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.rectanngle{
+    width: 300px;
+    height: 180px;
+    background-color: white;
+}
+
+.round{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border-radius: 70px;
+    position: relative;
+    left: 30%;
+    top: 38px;
+}
+
+@font-face {
+    font-family: cool;
+    src: url(./Font/Gingsul\ Demo.ttf);
+}
+
+@font-face {
+    font-family: Good;
+    src: url(./Font/Amanojaku\ Demo.otf);
+
+}
+h1{
+    /* margin-left: 630px; */
+    color: #FFC1B4;
+    font-family: cool;
+    text-align: center;
+
+
+}
+
+p{
+    font-size: xx-large;
+    color: #F38C79 ;
+    font-family: good;
+    margin-left: 100px;
+}
+
+img{
+    
+    margin: 10px;
+
+}
+
+/* media quaries  */
+
+@media(max-width:1500px){
+    p{
+        margin-right: 100px;
+        text-align: justify;
+    }
+    .images{
+        text-align: center;
+    }
+
+    .rectanngle{
+        text-align: center;
+    }
+}
+
+@media(max-width:806px){
+    p{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:663px){
+    p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:457px){
+    p {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+    img{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media(max-width:370px){
+    p{
+        font-size: 15px;
+    }
+
+    .rectanngle{
+        width: 250px;
+        height: 150px;
+    }
+
+    .round{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* @media(min-width:320px) and (max-width:370px){
+
+} */
