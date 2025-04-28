@@ -59,7 +59,7 @@ img{
 
 /* media quaries  */
 
-@media(max-width:1500px){
+@media(max-width:2500px){
     p{
         margin-right: 100px;
         text-align: justify;
